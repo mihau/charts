@@ -55,6 +55,7 @@ The following table lists the configurable parameters of the jaeger-operator cha
 | `tolerations`           | Toleration labels for pod assignment                                                                        | `[]`                            |
 | `affinity`              | Affinity settings for pod assignment                                                                        | `{}`                            |
 | `securityContext`       | Security context for pod                                                                                    | `{}`                            |
+| `env.WATCH_NAMESPACE`   | Namespace to watch for jaeger resources                                                                     | `""` - all namespaces           |
 
 Specify each parameter you'd like to override using a YAML file as described above in the [installation](#installing-the-chart) section.
 
